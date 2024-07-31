@@ -13,3 +13,5 @@ services:
         value: yAmyAOV3_Aqg8foCfAPFomQdizI9XGsEjlOxOL-LrL8
       - key: PUBLIC_URI
         value: https://penpot-develop.onrender.com
+      - key: PORT
+        value: "9001"
