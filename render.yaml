@@ -1,0 +1,15 @@
+services:
+  - name: penpot
+    type: web
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://penpot_user:LsNpeHq2epCLE1lmNG6REu9Lzhx03Bp5@dpg-cqkrjaogph6c738k4bt0-a:5432/penpot
+      - key: SECRET_KEY
+        value: yAmyAOV3_Aqg8foCfAPFomQdizI9XGsEjlOxOL-LrL8
+      - key: PUBLIC_URI
+        value: http://your-render-app-url

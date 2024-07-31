@@ -1,0 +1,36 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+//
+// Copyright (c) KALEIDOS INC
+
+//#################################################
+// MAIN STYLES
+//#################################################
+
+@import "common/refactor/fonts.scss";
+@import "common/refactor/spacing.scss";
+@import "common/refactor/borders.scss";
+@import "common/refactor/opacity.scss";
+@import "common/refactor/shadows.scss";
+@import "common/refactor/z-index.scss";
+@import "common/refactor/mixins.scss";
+@import "common/refactor/focus.scss";
+@import "common/refactor/animations.scss";
+@import "common/refactor/basic-rules.scss";
+
+// Variables to use the library colors
+$db-primary: var(--color-background-primary);
+$db-secondary: var(--color-background-secondary);
+$db-tertiary: var(--color-background-tertiary);
+$db-quaternary: var(--color-background-quaternary);
+$db-subtle: var(--color-background-subtle);
+$db-disabled: var(--color-background-disabled);
+
+$df-primary: var(--color-foreground-primary);
+$df-secondary: var(--color-foreground-secondary);
+$df-tertiary: var(--color-accent-quaternary);
+$da-primary: var(--color-accent-primary);
+$da-primary-muted: var(--color-accent-primary-muted);
+$da-secondary: var(--color-accent-secondary);
+$da-tertiary: var(--color-accent-tertiary);
