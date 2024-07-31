@@ -12,4 +12,4 @@ services:
       - key: SECRET_KEY
         value: yAmyAOV3_Aqg8foCfAPFomQdizI9XGsEjlOxOL-LrL8
       - key: PUBLIC_URI
-        value: http://your-render-app-url
+        value: https://penpot-develop.onrender.com
